@@ -12,10 +12,14 @@ build:
 
 requirements:
   run:
-    - csdms-child
-    - csdms-sedflux-3d
-    - pymt
-    - csdms-hydrotrend
+  - pymt
+  - cca-tools
+  - csdms-child
+  - csdms-sedflux-3d
+  - csdms-hydrotrend
+  - csdms-permamodel-ku
+  - csdms-permamodel-frostnumber
+  - csdms-brake
 
 extra:
   copy_test_source_files: true
