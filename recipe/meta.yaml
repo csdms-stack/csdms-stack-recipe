@@ -1,0 +1,22 @@
+{% set name = "csdms-stack" %}
+{% set version = "0.1" %}
+
+package:
+  name: {{ name }}
+  version: {{ version }}
+
+build:
+  entry_points: []
+  number: 0
+  string: '0'
+
+requirements:
+  run:
+    - csdms-child
+    - csdms-sedflux-3d
+    - pymt
+    - csdms-hydrotrend
+
+extra:
+  copy_test_source_files: true
+  final: true
