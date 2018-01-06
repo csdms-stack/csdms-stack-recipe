@@ -7,8 +7,8 @@ package:
 
 build:
   entry_points: []
-  number: 0
-  string: '0'
+  number: 1
+  string: '1'
 
 requirements:
   run:
@@ -20,6 +20,7 @@ requirements:
   - csdms-permamodel-ku
   - csdms-permamodel-frostnumber
   - csdms-brake
+  - csdms-pydeltarcm
 
 extra:
   copy_test_source_files: true
