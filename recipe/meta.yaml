@@ -7,7 +7,7 @@ package:
 
 build:
   entry_points: []
-  number: 2
+  number: 3
 
 requirements:
   run:
@@ -16,10 +16,7 @@ requirements:
   - csdms-child
   - csdms-sedflux-3d
   - csdms-hydrotrend
-  - csdms-permamodel-ku
-  - csdms-permamodel-frostnumber
-  - csdms-permamodel-kugeo
-  - csdms-permamodel-frostnumbergeo
+  - csdms-permamodel
   - csdms-brake
   - csdms-pydeltarcm
 
